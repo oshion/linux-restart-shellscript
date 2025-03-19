@@ -1,7 +1,6 @@
 # linux-restart-shellscript
-
+`
 #!/bin/sh
-
 
 export JAVA_HOME=/usr/bin/java
 export PATH="$PATH:$JAVA_HOME/bin"
@@ -31,3 +30,4 @@ else
 
     echo "$DATE : TOMCAT이 시작되었습니다.(PID : $tomcatPID)" >> $Log
 fi
+`

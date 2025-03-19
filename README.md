@@ -1,5 +1,5 @@
 # linux-restart-shellscript
-<p>
+```
 #!/bin/sh
 
 export JAVA_HOME=/usr/bin/java
@@ -30,4 +30,4 @@ else
 
     echo "$DATE : TOMCAT이 시작되었습니다.(PID : $tomcatPID)" >> $Log
 fi
-</p>
+```
